@@ -1,0 +1,111 @@
+body{
+    position: relative;
+  }
+  
+ .container-fluid{
+	 margin: 0.1rem 8rem;
+ }
+ 
+#nav-antes {
+    background: linear-gradient(90deg, rgba(112,13,140,1) 0%, rgba(121,9,119,1) 44%, rgba(215,7,212,1) 95%);
+	transition: 0.8s;
+	height:100%;
+	width:100%;
+	position: absolute;
+	z-index:-1;
+	opacity:0;
+}
+ 
+#nav-depois{
+    background: linear-gradient(90deg, rgba(112,13,140,1) 0%, rgba(121,9,119,1) 44%, rgba(215,7,212,1) 95%);
+	transition: 0.8s;
+	height:100%;
+	width:100%;
+	position: absolute;
+	z-index:-1;
+}
+
+#nav-itens-antes{
+    background: linear-gradient(90deg, rgba(112,13,140,0.8) 0%, rgba(121,9,119,0.8) 44%, rgba(215,7,212,0.8) 95%);
+	border-radius: 50px;
+	transition:  0.8s;
+}
+
+#nav-itens-depois{	
+	border-radius: 10px;
+	transition: 0.8s;
+}
+
+.navbar .navbar-brand{
+	padding: 0;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(255, 102, 204);
+}
+
+.navbar .navbar-brand:hover, .navbar-brand:active{
+    color: rgb(255, 130, 213);
+}
+
+.nav-link{
+    margin: 0 5px;
+    font-weight: 550;
+}
+	
+li.nav-item:nth-child(n) > a:nth-child(n){
+    color: white;
+    font-size: 20px;
+}
+
+li.nav-item:nth-child(n) > a:nth-child(n):hover{
+    color: rgb(255, 102, 204);
+}
+
+li.nav-item:nth-child(n) > a:nth-child(n):active{
+    color: black;    
+}
+
+.sobre{
+    background-image: url("img/cat-prp.jpg");
+    padding-top: 100px;
+}
+
+.sobre .txt{
+    font-size: 25px;
+}
+
+.icon{
+    height: 200px;
+    width: 200px;
+    border-radius: 400px;
+}
+
+h1{
+    font-weight: bold;
+}
+
+.carousel{
+    width: 75%;
+}
+
+.card-img-top{
+    font-size: 100px;
+  }
+
+  .card{
+      border-radius: 25px;
+  }
+  
+  @media screen and (max-width: 988px){
+	.container-fluid{
+		margin: 0.1rem;
+	}
+	#nav-antes {
+    background: linear-gradient(90deg, rgba(112,13,140,1) 0%, rgba(121,9,119,1) 44%, rgba(215,7,212,1) 95%);
+	opacity:0;
+	}
+	#nav-itens-antes{
+    background: linear-gradient(90deg, rgba(112,13,140,0.8) 0%, rgba(121,9,119,0.8) 44%, rgba(215,7,212,0.8) 95%);
+	border-radius: 0px;
+	}
+  }
