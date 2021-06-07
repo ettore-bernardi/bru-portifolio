@@ -6,7 +6,7 @@ body{
 	 margin: 0.1rem 8rem;
  }
  
-#nav-antes {
+#nav-before {
     background: linear-gradient(90deg, rgba(112,13,140,1) 0%, rgba(121,9,119,1) 44%, rgba(215,7,212,1) 95%);
 	transition: 0.8s;
 	height:100%;
@@ -16,7 +16,7 @@ body{
 	opacity:0;
 }
  
-#nav-depois{
+#nav-after{
     background: linear-gradient(90deg, rgba(112,13,140,1) 0%, rgba(121,9,119,1) 44%, rgba(215,7,212,1) 95%);
 	transition: 0.8s;
 	height:100%;
@@ -25,13 +25,13 @@ body{
 	z-index:-1;
 }
 
-#nav-itens-antes{
+#nav-itens-before{
     background: linear-gradient(90deg, rgba(112,13,140,0.8) 0%, rgba(121,9,119,0.8) 44%, rgba(215,7,212,0.8) 95%);
 	border-radius: 50px;
 	transition:  0.8s;
 }
 
-#nav-itens-depois{	
+#nav-itens-after{	
 	border-radius: 10px;
 	transition: 0.8s;
 }
@@ -65,12 +65,12 @@ li.nav-item:nth-child(n) > a:nth-child(n):active{
     color: black;    
 }
 
-.sobre{
+.about{
     background-image: url("img/cat-prp.jpg");
     padding-top: 100px;
 }
 
-.sobre .txt{
+.about .txt{
     font-size: 25px;
 }
 
@@ -100,11 +100,11 @@ h1{
 	.container-fluid{
 		margin: 0.1rem;
 	}
-	#nav-antes {
+	#nav-before {
     background: linear-gradient(90deg, rgba(112,13,140,1) 0%, rgba(121,9,119,1) 44%, rgba(215,7,212,1) 95%);
 	opacity:0;
 	}
-	#nav-itens-antes{
+	#nav-itens-before{
     background: linear-gradient(90deg, rgba(112,13,140,0.8) 0%, rgba(121,9,119,0.8) 44%, rgba(215,7,212,0.8) 95%);
 	border-radius: 0px;
 	}
