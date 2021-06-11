@@ -93,10 +93,12 @@ h1{
   }
 
   .card{
+      
       border-radius: 25px;
+      width: 18rem;
   }
   
-  @media screen and (max-width: 988px){
+  @media screen and (max-width: 991px){
 	.container-fluid{
 		margin: 0.1rem;
 	}
