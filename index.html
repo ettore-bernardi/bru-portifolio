@@ -10,14 +10,11 @@
       <link rel="shortcut icon" href="img/icone.jpg">
    </head>
    <body>
-      <nav class="navbar navbar-expand-lg navbar-dark fixed-top" >
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top d-none d-lg-flex">
          <div id="nav-before"></div>
          <div class="container-fluid">
             <a class="navbar-brand" href="#about">Bruvanessa</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse">
                <ul id="nav-itens-before" class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item">
                      <a class="nav-link" href="#about">Sobre</a>
@@ -34,6 +31,30 @@
                </ul>
             </div>
          </div>
+      </nav>
+	  <nav class="nav-mobile navbar navbar-dark fixed-top d-lg-none d-flex">
+        <div class="container-fluid container-fluid-mobile">
+            <a class="navbar-brand" href="#about">Bruvanessa</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                     <a class="nav-link" href="#about">Sobre</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#clips">Clipes</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#social">Redes</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#help">Ajude-me</a>
+                  </li>
+               </ul>
+            </div>
+        </div>
       </nav>
       <section id="about" class="about text-center text-white pb-5">
          <div class="container">
