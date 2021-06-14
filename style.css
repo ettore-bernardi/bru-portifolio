@@ -5,6 +5,10 @@ body{
  .container-fluid{
 	 margin: 0.1rem 8rem;
  }
+
+ .container-fluid-mobile{
+    margin: 0.1rem;
+}
  
 #nav-before {
     background: linear-gradient(90deg, rgba(112,13,140,1) 0%, rgba(121,9,119,1) 44%, rgba(215,7,212,1) 95%);
@@ -24,6 +28,10 @@ body{
 	position: absolute;
 	z-index:-1;
 }
+
+.nav-mobile{
+	background: linear-gradient(90deg, rgba(112,13,140,1) 0%, rgba(121,9,119,1) 44%, rgba(215,7,212,1) 95%);
+ }
 
 #nav-itens-before{
     background: linear-gradient(90deg, rgba(112,13,140,0.8) 0%, rgba(121,9,119,0.8) 44%, rgba(215,7,212,0.8) 95%);
@@ -90,24 +98,9 @@ h1{
 
 .card-img-top{
     font-size: 100px;
-  }
+}
 
-  .card{
-      
+.card{
       border-radius: 25px;
       width: 18rem;
-  }
-  
-  @media screen and (max-width: 991px){
-	.container-fluid{
-		margin: 0.1rem;
-	}
-	#nav-before {
-    background: linear-gradient(90deg, rgba(112,13,140,1) 0%, rgba(121,9,119,1) 44%, rgba(215,7,212,1) 95%);
-	opacity:0;
-	}
-	#nav-itens-before{
-    background: linear-gradient(90deg, rgba(112,13,140,0.8) 0%, rgba(121,9,119,0.8) 44%, rgba(215,7,212,0.8) 95%);
-	border-radius: 0px;
-	}
-  }
+}
