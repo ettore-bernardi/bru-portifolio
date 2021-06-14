@@ -101,6 +101,15 @@ h1{
 }
 
 .card{
-      border-radius: 25px;
-      width: 18rem;
-}
+    border-radius: 25px;
+    width: 18rem;
+  }
+  
+th{
+	width: 500px;
+	  
+  }
+  
+  tr{
+	height: 10px;
+  }
