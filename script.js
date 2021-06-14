@@ -10,11 +10,3 @@ function scroll() {
 	  document.getElementById('nav-itens-after').id = 'nav-itens-before'
   }
 }
-
-
-
-
-
-
-
-
