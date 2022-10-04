@@ -1,1 +1,1 @@
-A portfolio i made for my girlfriend in order to learn bootstrap.
+A portfolio i made for a friend in order to learn bootstrap.
